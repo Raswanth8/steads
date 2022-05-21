@@ -7,14 +7,15 @@ import Box from '@mui/material/Box';
 export default function About() {
   return (
     <div className='aboutsection'>
+      <br/>
         <p className='abouttitle'><b>S</b>oftware Engineering and <b>Te</b>chnological <b>A</b>dvancements for <b>S</b>ociety</p>
     <br></br>
     <div className= 'aboutcards'>
     <br/>
     <Box sx={{ flexGrow:10}}>
       <Grid container spacing={5} columns={17}>
-        <Grid item xs={5.3}>
-          <Card sx={{maxWidth: 250,height: 200}} elevation={2} >
+        <Grid item xs={5.5}>
+          <Card sx={{maxWidth: 300,height: 200}} elevation={2} >
             <CardContent>
               <Typography sx={{ fontSize: 24 }} gutterBottom>
                 <text><b>S</b>oftware Engineering</text>
@@ -25,8 +26,8 @@ export default function About() {
             </CardContent>
           </Card>
       </Grid>
-      <Grid item xs={5.3}>
-          <Card sx={{maxWidth: 250,height: 200}} elevation={2}>
+      <Grid item xs={5.5}>
+          <Card sx={{maxWidth: 300,height: 200}} elevation={2}>
             <CardContent>
               <Typography sx={{ fontSize: 24 }} gutterBottom>
                 <text><b>Te</b>chnological <b>Ad</b>vancements</text>
@@ -37,8 +38,8 @@ export default function About() {
             </CardContent>
           </Card>
       </Grid>
-      <Grid item xs={5.3}>
-          <Card sx={{maxWidth: 250,height: 200}} elevation={2}>
+      <Grid item xs={5.5}>
+          <Card sx={{maxWidth: 300,height: 200}} elevation={2}>
             <CardContent>
               <Typography sx={{ fontSize: 24 }} gutterBottom>
                 <text><b>S</b>ociety</text>
@@ -52,9 +53,5 @@ export default function About() {
     </Grid>
   </Box>
   </div>
-
-<p> hi</p>
-    </div>
-    
-  )
-}
+</div>  
+)}

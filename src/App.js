@@ -3,7 +3,7 @@ import Navbar from './components/NavBar.js'
 import './App.css';
 import Home from './components/Home'
 import About from './components/About.js';
-
+import Team from './components/Team';
 function App() {
   return (
     <Router>
@@ -16,6 +16,10 @@ function App() {
       <br></br>
       <div>
         <About/>
+      </div>
+      <br></br>
+      <div>
+        <Team/>
       </div>
     </div>
   </Router>
