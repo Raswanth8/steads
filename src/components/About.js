@@ -72,6 +72,7 @@ export default function About() {
           </Grid>
         </Box>
       </div>
+      <br></br>
     </div>
   );
 }

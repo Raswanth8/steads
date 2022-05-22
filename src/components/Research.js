@@ -22,7 +22,7 @@ const Datagrid = () => {
     <div className="researchtable">
       <h1>Recent Publications</h1>
       <br />
-      <div style={{ height: 500, width: "70%" }}>
+      <div style={{ height: 500, width: "75%" }}>
         <DataGrid rows={tableData} columns={columns} pageSize={10} />
       </div>
     </div>
