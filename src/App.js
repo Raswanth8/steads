@@ -11,21 +11,14 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <div>
-          <br></br>
-          <Home />
-        </div>
         <br></br>
         <div>
-          <About />
-        </div>
-        <br></br>
-        <div>
-          <Datagrid />
-        </div>
-        <br></br>
-        <div>
-          <Team />
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="about" element={<About />} />
+            <Route exact path="team" element={<Team />} />
+            <Route exact path="publications" element={<Datagrid />} />
+          </Routes>
         </div>
       </div>
     </Router>
@@ -33,3 +26,27 @@ function App() {
 }
 
 export default App;
+
+{
+  /* <Router>
+  <div className="App">
+    <Navbar />
+    <div>
+      <br></br>
+      <Home />
+    </div>
+    <br></br>
+    <div>
+      <About />
+    </div>
+    <br></br>
+    <div>
+      <Datagrid />
+    </div>
+    <br></br>
+    <div>
+      <Team />
+    </div>
+  </div>
+</Router>; */
+}
