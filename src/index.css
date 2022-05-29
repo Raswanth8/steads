@@ -12,6 +12,7 @@
 }
 .navbar {
   padding: 20px;
+  background-color: white;
   display: flex;
   align-items: center;
   max-width: auto;
@@ -34,6 +35,12 @@
   color: #067aff;
 }
 
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 97.5%;
+}
 .homebanner {
   padding: 150px;
   align-items: center;

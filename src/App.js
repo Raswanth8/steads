@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import About from "./components/About.js";
 import Team from "./components/Team";
 import Datagrid from "./components/Research.js";
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       <Navbar />
       <br></br>
       <Home />
+      <br></br>
+      <ScrollToTop smooth />
+      <br></br>
       <About />
       <br></br>
       <Team />
