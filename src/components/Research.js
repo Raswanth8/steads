@@ -19,13 +19,15 @@ const Datagrid = () => {
   //console.log(tableData);
 
   return (
-    <div className="researchtable">
-      <h1>Recent Publications</h1>
-      <br />
-      <div style={{ height: 700, width: "100%" }}>
-        <DataGrid rows={tableData} columns={columns} pageSize={10} />
+    <section className="datagrid-section" id="research">
+      <div className="research-table">
+        <h1>Recent Publications</h1>
+        <br />
+        <div style={{ height: 700, width: "100%" }}>
+          <DataGrid rows={tableData} columns={columns} pageSize={10} />
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -1,4 +1,3 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/NavBar.js";
 import "./App.css";
 import Home from "./components/Home";
@@ -8,20 +7,17 @@ import Datagrid from "./components/Research.js";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Navbar />
-        <br></br>
-        <div>
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route exact path="about" element={<About />} />
-            <Route exact path="team" element={<Team />} />
-            <Route exact path="publications" element={<Datagrid />} />
-          </Routes>
-        </div>
-      </div>
-    </Router>
+    <div className="App">
+      <Navbar />
+      <br></br>
+      <Home />
+      <About />
+      <br></br>
+      <Team />
+      <br></br>
+      <Datagrid />
+      <br></br>
+    </div>
   );
 }
 
