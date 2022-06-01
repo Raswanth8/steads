@@ -12,16 +12,13 @@
 }
 .navbar {
   padding: 20px;
-  background-color: white;
-  display: flex;
-  align-items: center;
   max-width: auto;
   margin: 0 auto;
   /* border-bottom: 2px solid #f2f2f2; */
   box-shadow: 0 1px 1px 1px rgba(8, 8, 8, 0.15);
 }
 .navbar h1 {
-  color: #067aff;
+  color: #6bb0ff;
 }
 .navbar .links {
   margin-left: auto;

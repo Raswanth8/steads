@@ -1,15 +1,17 @@
-import Navbar from "./components/NavBar.js";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./components/Home";
 import About from "./components/About.js";
 import Team from "./components/Team";
 import Datagrid from "./components/Research.js";
 import ScrollToTop from "react-scroll-to-top";
+import Contact from "./components/Contact";
+import Appbar from "./components/Appbar.js";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Appbar />
       <br></br>
       <Home />
       <br></br>
@@ -21,32 +23,10 @@ function App() {
       <br></br>
       <Datagrid />
       <br></br>
+      <br></br>
+      <Contact />
     </div>
   );
 }
 
 export default App;
-
-{
-  /* <Router>
-  <div className="App">
-    <Navbar />
-    <div>
-      <br></br>
-      <Home />
-    </div>
-    <br></br>
-    <div>
-      <About />
-    </div>
-    <br></br>
-    <div>
-      <Datagrid />
-    </div>
-    <br></br>
-    <div>
-      <Team />
-    </div>
-  </div>
-</Router>; */
-}

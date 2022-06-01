@@ -21,10 +21,12 @@ const Datagrid = () => {
   return (
     <section className="datagrid-section" id="research">
       <div className="research-table">
-        <h1>Recent Publications</h1>
+        <h1>
+          <b>Recent Publications</b>
+        </h1>
         <br />
-        <div style={{ height: 700, width: "100%" }}>
-          <DataGrid rows={tableData} columns={columns} pageSize={10} />
+        <div style={{ height: 560, width: "100%" }}>
+          <DataGrid rows={tableData} columns={columns} pageSize={8} />
         </div>
       </div>
     </section>
